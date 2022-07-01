@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>HotwaxS</display-name>
+ <!--  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list> -->
+  
+  <servlet>
+        <servlet-name>Registration</servlet-name>
+        <servlet-class>Registration</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Registration</servlet-name>
+        <url-pattern>/Registration</url-pattern>
+    </servlet-mapping>
+    
+  
+  <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Login</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>ShowData</servlet-name>
+        <servlet-class>ShowData</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ShowData</servlet-name>
+        <url-pattern>/ShowData</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>NewRegistration</servlet-name>
+        <servlet-class>NewRegistration</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>NewRegistration</servlet-name>
+        <url-pattern>/NewRegistration</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Update</servlet-name>
+        <servlet-class>Update</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Update</servlet-name>
+        <url-pattern>/Update</url-pattern>
+    </servlet-mapping>
+       
+    
+</web-app>
